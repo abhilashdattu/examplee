@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.header{
+    width: 100%;
+    height: 10%;
+    background-color: red;
+}
+.main-bar{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+}
+.sidebar{
+    width: 20%;
+    height: 100%;
+    background-color: greenyellow;
+}
+.maincontent{
+    width: 90%;
+    height: 100%;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 5px;
+}
+.box{
+    height: 200px;
+    width: 300px;
+    border: 1px solid black;
+}
+
+
+
+/* max ---> it is the max value */
